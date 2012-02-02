@@ -1,2 +1,16 @@
 #!/bin/sh
-phpunit -c app/phpunit.xml
+
+#
+# This script file is the entry point to ci.miranetworks.net build/test process.
+#
+# It is executed by jenkins, from the root directory
+#
+
+#php bin/vendors install
+
+#sudo -u postgres psql -U postgres template1 --command="create user leonilg password 'password' createdb createuser;"
+#sudo -u postgres createdb --owner leonilg leonilg
+
+#php app/console propel:build --insert-sql
+
+phpunit -c app
