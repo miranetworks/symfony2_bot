@@ -1,2 +1,2 @@
 #!/bin/sh
-php phpunit.php
+phpunit -c app/phpunit.xml
