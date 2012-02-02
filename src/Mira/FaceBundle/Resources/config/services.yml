@@ -1,0 +1,7 @@
+parameters:
+#    mira_face.example.class: Mira\FaceBundle\Example
+
+services:
+#    mira_face.example:
+#        class: %mira_face.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
